@@ -42,3 +42,46 @@ Gorf.innerHTML = "Error"
 
 
 }
+Corf = document.getElementById("Corf");
+document.getElementById("LaButton3").onclick =labutton_3;
+
+
+function labutton_3() {
+    Day = document.getElementById("Day").value;
+    var Carlos 
+    
+switch (Day){
+case "1":
+    Carlos = "Monday"
+    break
+case "2":
+    Carlos = "Tuesday"
+    break
+case "3":
+    Carlos = "Wednesday"
+    break
+case "4":
+    Carlos = "Thursday"
+    break
+case "5":
+    Carlos = "Friday"
+    break 
+case "6":
+    Carlos = "Saturday"
+    break
+case "7":
+    Carlos = "Sunday"
+    break   
+default:
+    Carlos = "Error"
+    break
+
+
+}
+Corf.innerHTML = Carlos
+console.log(Day)
+
+}
+
+
+
